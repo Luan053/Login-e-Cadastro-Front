@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/74adac6a14.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <a href="##">
+        <img src="/assets/icon1.png" alt="" class="back">
+    </a>
+    <div class="container">
+        <div class="buttonsform">
+            <div class="btncolor"></div>
+            <button id="btnlogin">Entrar</button>
+            <button id="btnregister">Registrar</button>
+        </div>
+
+        <form id="login">
+            <div class="input-field">
+                <input type="text" placeholder="Usuário" required />
+                <i class="fa-solid fa-user"></i>
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" placeholder="Senha" required pattern=".{6,12}" />
+                <i class="fa-solid fa-lock iPassword1"></i>
+                <div class="underline"></div>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+
+        <form id="register">
+            <div class="input-field">
+                <input type="text" placeholder="Email" required />
+                <i class="fas fa-envelope iEmail"></i>
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Usuário" required pattern=".{6,}" />
+                <i class="fa-solid fa-user"></i>
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" placeholder="Senha" required pattern=".{6,12}" />
+                <i class="fa-solid fa-lock iPassword2"></i>
+                <div class="underline"></div>
+            </div>
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
